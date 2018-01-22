@@ -1,4 +1,4 @@
-export function using(values, func) {
+export function using(func, values) {
   values = transformObjectToArray(values);
   values.forEach(function (value) {
     if (!(value instanceof Array)) {
